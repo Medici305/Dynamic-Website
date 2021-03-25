@@ -20,7 +20,7 @@
 .nav-header .burger .line2 {
   width: 3rem;
   height: 0.2rem;
-  margin: 4rem;
+  margin: 0.4rem;
   background: #fff;
   pointer-events: none;
 }
@@ -68,6 +68,7 @@
 body {
   background: #17181a;
   font-family: "Monserrat", sans-serif;
+  overflow-x: hidden;
 }
 
 .slide {
@@ -86,6 +87,7 @@ body {
   position: relative;
   flex: 1;
   flex-basis: 25rem;
+  overflow: hidden;
 }
 .slide .herp-img img {
   width: 100%;
@@ -153,6 +155,14 @@ body {
   height: 3rem;
   border-radius: 50%;
   border: 2px solid #fff;
+}
+
+.active {
+  background-color: red;
+}
+
+.hike-exp {
+  color: green;
 }
 
 /*# sourceMappingURL=Style.css.map */
