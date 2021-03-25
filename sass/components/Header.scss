@@ -1,0 +1,23 @@
+.nav-header {
+    min-height: 10vh;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    color: #fff;
+    #logo {
+      color: #fff;
+      font-family: "Abril Fatface";
+    }
+    .line1,
+    .line2 {
+      width: 3rem;
+      height: 0.2rem;
+      margin: 4rem;
+      background: #fff;
+      pointer-events: none;
+    }
+  }

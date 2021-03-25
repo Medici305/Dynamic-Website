@@ -1,0 +1,28 @@
+// Imports
+@import "./components/Header.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #17181a;
+  font-family: "Monserrat", sans-serif;
+}
+
+.slide {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+  background: #17181a;
+
+  /* 1. Image */
+  /* 2. Text */
+}
+
