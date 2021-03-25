@@ -1,0 +1,35 @@
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  opacity: 1;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  background: #fff;
+  clip-path: circle(50px at 100% -10%);
+  -webkit-clip-path: circle(50px at 100% -10%);
+
+  .nav-links {
+    font-size: 4rem;
+    flex-basis: 30rem;
+    h3 {
+      padding: 3rem 0;
+    }
+  }
+
+  .contact {
+    flex-basis: 30rem;
+    h2 {
+      font-size: 3rem;
+      padding: 2rem 0;
+    }
+    p {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+  }
+}

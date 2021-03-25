@@ -13,13 +13,50 @@
   color: #fff;
   font-family: "Abril Fatface";
 }
-.nav-header .line1,
-.nav-header .line2 {
+.nav-header .burger {
+  cursor: pointer;
+}
+.nav-header .burger .line1,
+.nav-header .burger .line2 {
   width: 3rem;
   height: 0.2rem;
   margin: 4rem;
   background: #fff;
   pointer-events: none;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  opacity: 1;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  background: #fff;
+  clip-path: circle(50px at 100% -10%);
+  -webkit-clip-path: circle(50px at 100% -10%);
+}
+.nav-bar .nav-links {
+  font-size: 4rem;
+  flex-basis: 30rem;
+}
+.nav-bar .nav-links h3 {
+  padding: 3rem 0;
+}
+.nav-bar .contact {
+  flex-basis: 30rem;
+}
+.nav-bar .contact h2 {
+  font-size: 3rem;
+  padding: 2rem 0;
+}
+.nav-bar .contact p {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 * {
@@ -44,6 +81,78 @@ body {
   background: #17181a;
   /* 1. Image */
   /* 2. Text */
+}
+.slide .herp-img {
+  position: relative;
+  flex: 1;
+  flex-basis: 25rem;
+}
+.slide .herp-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slide .hero-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  flex-basis: 25rem;
+  position: relative;
+  padding-left: 5rem;
+  /* 2.1 Title */
+  /* 2.2 Text */
+  /* 2.3 Button */
+}
+.slide .hero-desc h2 {
+  font-family: "Abril Fatface";
+  font-size: 5rem;
+}
+.slide .hero-desc p {
+  padding: 3rem 0rem;
+  font-size: 1.5rem;
+  color: #dfdfdf;
+}
+.slide .hero-desc a {
+  padding: 1rem 2rem;
+  background: none;
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.mountain-span {
+  color: #567ce4;
+}
+
+.hike-span {
+  color: #a76ee7;
+}
+
+.fashion-span {
+  color: #ff8b5d;
+}
+
+.reveal-img,
+.reveal-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #17181a;
+  top: 0;
+  left: 0;
+}
+
+.cursor {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 2px solid #fff;
 }
 
 /*# sourceMappingURL=Style.css.map */

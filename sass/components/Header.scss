@@ -1,17 +1,19 @@
 .nav-header {
-    min-height: 10vh;
-    width: 80%;
-    margin: 0 auto;
-    padding: 2rem 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1rem;
+  min-height: 10vh;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  color: #fff;
+  #logo {
     color: #fff;
-    #logo {
-      color: #fff;
-      font-family: "Abril Fatface";
-    }
+    font-family: "Abril Fatface";
+  }
+  .burger {
+    cursor: pointer;
     .line1,
     .line2 {
       width: 3rem;
@@ -21,3 +23,4 @@
       pointer-events: none;
     }
   }
+}
